@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дизайн интерьера | Ваше имя</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Дизайн интерьера</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <p>Привет! Меня зовут [Зарина], и я профессиональный дизайнер интерьеров. Я создаю уютные и стильные пространства, которые отражают вашу индивидуальность.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Проект 1">
+                <img src="image2.jpg" alt="Проект 2">
+                <img src="image3.jpg" alt="Проект 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Дизайн жилых помещений</li>
+                <li>Дизайн коммерческих помещений</li>
+                <li>3D-визуализация</li>
+                <li>Консультации</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Контакты</h2>
+            <p>Свяжитесь со мной, чтобы обсудить ваш проект:</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [Ваше имя]. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
